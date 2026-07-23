@@ -1,8 +1,29 @@
 aid: arrived-homes
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/arrived-homes.png
 name: Arrived Homes
-description: 'Arrived Homes is a company surfaced as a portfolio company of forerunner-ventures and added
-  to the API Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Arrived (Arrived Homes) is an SEC-qualified real estate investing platform
+  that lets anyone buy fractional shares of income-producing single-family rental
+  homes and vacation rentals for as little as $100. Arrived curates and acquires
+  properties nationwide, handles acquisition, financing, property management, tenant
+  placement, maintenance, and financial reporting, and passes rental income to
+  investors as quarterly dividends alongside long-term appreciation. The platform
+  also offers pooled funds including a Single Family Residential Fund and a Real
+  Estate Income (debt) Fund. As of profiling it reports roughly 981K registered
+  investors, $445M invested, and $95M distributed. Backed by Forerunner Ventures,
+  it operates as a consumer fintech / proptech product with a web and mobile app;
+  it publishes no public developer API. This API Evangelist profile is enriched
+  from public company surfaces.'
 url: https://raw.githubusercontent.com/api-evangelist/arrived-homes/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +33,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Fintech
+- Proptech
+- Real Estate
+- Real Estate Investing
+- Fractional Ownership
+- Passive Income
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +51,24 @@ maintainers:
 common:
 - type: Website
   url: https://arrived.com
+- type: Blog
+  url: https://arrived.com/blog/
+- type: Support
+  url: https://help.arrived.com/
+- type: SignUp
+  url: https://arrived.com/signup
+- type: TermsOfService
+  url: https://arrived.com/tos
+- type: PrivacyPolicy
+  url: https://arrived.com/privacy-policy
+- type: GitHubOrganization
+  url: https://github.com/arrivedhomes
+- type: LLMsTxt
+  url: llms/arrived-homes-llms.txt
+- type: DomainSecurity
+  url: security/arrived-homes-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
