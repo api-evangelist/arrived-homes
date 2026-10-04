@@ -49,7 +49,7 @@ tags:
 - Company
 - Fintech
 - PropTech
-- Real-Estate
+- Real Estate
 - Real Estate Investing
 - Fractional Ownership
 - Passive Income
@@ -61,6 +61,7 @@ tags_raw:
 - Real Estate Investing
 - Fractional Ownership
 - Passive Income
+- Real-Estate
 apis: []
 maintainers:
 - FN: Kin Lane
